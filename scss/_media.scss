@@ -1,6 +1,9 @@
 // Movil view
+@import "variables";
+
 @media (max-width:800px){
     .container-body{
+        background: linear-gradient(180deg, $color_header_principal 12%, $color_main_principal 86%, $color_footer_principal 100%);
         display: grid;
         grid-template-areas: 
         "header"
@@ -8,11 +11,24 @@
         "footer"
         ;
     }
+    
+    .row{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .ratio{
+        width: 33%;
+        height: auto;
+    }
+    
 }
 
 // Tablet view
 @media (min-width:801px) and (max-width:1280px){
     .container-body{
+        background: linear-gradient(180deg, $color_header_principal 12%, $color_main_principal 86%, $color_footer_principal 100%);
         display: grid;
         grid-template-areas: 
         "header header"
@@ -25,6 +41,7 @@
 // Desktop view
 @media (min-width:1281px) and (max-width:1920px){
     .container-body{
+        background: linear-gradient(180deg, $color_header_principal 12%, $color_main_principal 86%, $color_footer_principal 100%);
         display: grid;
         grid-template-areas: 
         "header header header"
