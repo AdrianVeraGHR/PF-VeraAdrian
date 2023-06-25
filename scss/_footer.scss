@@ -1,0 +1,23 @@
+footer{
+    padding: 2%;
+    grid-area: footer;
+
+    .row{
+        justify-content: space-between;
+    }
+
+    .col{
+        align-self: center;
+        text-align: center;
+    }
+
+    .col-5{
+        align-self: center;
+        text-align: center;
+    }
+
+    .list-group-item{
+        border: none;
+    }
+
+}

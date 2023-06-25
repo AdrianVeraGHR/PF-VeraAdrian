@@ -1,0 +1,21 @@
+main{
+    padding: 2%;
+    grid-area: main;
+    display: flex;
+    
+    .col{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    form {
+        width: 100%;
+
+        #InputMensaje{
+            height: 100px;
+            
+        }
+    }
+}
